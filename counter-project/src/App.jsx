@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  let counter =5;
+
   const [count, setCount] = useState(5)
 
   const add = ()=>{
@@ -14,7 +14,7 @@ function App() {
   }
   return (
     <>
-      <h1>Hello world</h1>
+      <h1>Hello world</h1> 
       <h2>counter value: {count}</h2>
       <button onClick={add}>Add value</button>
       <br />
